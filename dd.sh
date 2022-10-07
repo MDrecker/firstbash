@@ -22,3 +22,8 @@ printf $X >> $log ## Printo info to log
 zf= dd if=/dev/zero of=/dev/sd$X status=progress && sync ## Actual zerofill execution
 echo $zf
 echo "End"
+
+###################################
+## This is a comment to           #
+## differentiate between branches #
+###################################
